@@ -96,11 +96,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -message \"Claude Code Finished\" -sound default"
-          },
-          {
-            "type": "command",
-            "command": "say \"bipp\""
+            "command": "say -r 300 \"done\""
           }
         ]
       }

@@ -88,7 +88,7 @@ headingTitle
 - Use CSS modules or styled-components for scoping
 - Follow BEM naming convention for CSS classes
 - Write maintainable postcSS that passes Stylelint rules
-- Use CSS custom properties (variables) for theming and when beneficial
+- Use CSS variables
 - Ensure sufficient color contrast for accessibility
 
 ### Examples: CSS Naming Best Practices
