@@ -1,0 +1,14 @@
+# Tools & Techstack
+- **Nuxt4** - Vue.js framework
+- **Nuxt UI** - UI component library
+- **Pinia** - State management
+- **Pinacolada** - Data fetching/caching
+- **ITCSS structure** - CSS architecture
+- **PostCSS** - CSS processing
+- **CSS variables** - For theming and styling
+- **Javascript** 
+- **JSDoc** - Simple type annotations
+- **Stylelint** - CSS linting
+- **BEM naming convention** - CSS class naming
+- **Cypress** - Component + e2e tests
+- **Percy** - Visual testing
