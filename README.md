@@ -9,7 +9,7 @@
 
 ## 💻 Usage
 
-Run Claude with custom settings:
+Yolo Mode if you wish
 ```bash
 claude --dangerously-skip-permissions
 ```
@@ -18,36 +18,26 @@ claude --dangerously-skip-permissions
 
 - 🔔 **Notification sounds** - Audio alerts when tasks complete
 - 🔍 **Code quality** - Automatic ESLint and Stylelint execution after file edits
-- 🎯 **Suffix hooks** - Use `-u` for ultrathink mode, `-e` for explanations after the prompt
-- 📝 **Default prompt enhancement** - Automatic context addition
-- 📋 **Coding rules & guidelines** - Personal Claude coding style preferences ([rules.md](.claude/rules.md))
+- 🎯 **Suffix hooks** - Prompt parameters `-u` ultrathink mode, `-e` for explanations, - `-c` for roadmap creation, `-d` for minimalist mode
+- 📋 **Coding rules & guidelines** - Evergreen rules and personal code style rules ([rules.md](.claude/rules.md))
 - 🧰 **Curated tool selection** - Pre-defined favorite development tools ([tools.md](.claude/tools.md))
-- 🎨 **Implementation templates** - Ready-to-use feature scaffolding ([implement.md](.claude/implement.md))
+- 🎨 **Implementation templates** - Ready-to-use feature planning for coding from scratch ([implement.md](.claude/implement.mdement.md))
 - 🔐 **Permission management** - Fine-grained allow/deny controls
 
+## 🎯 Custom Sufix Hooks
 
-## 📁 Project Structure
+- **`-d` flag**: Default minimalist general use mode
+- **`-u` flag**: Ultrathink mode for research and complex problem-solving
+- **`-e` flag**: Explanation context addition to responses
+- **`-c` flag**: Create roadmap for one shot prototype app
 
-```
-.claude/
-├── hooks/                    # Custom prompt processing hooks
-├── rules.md                  # Coding standards and best practices  
-├── tools.md                  # Preferred development tools
-├── implement.md              # Feature implementation templates
-└── settings.json             # Core configuration
-```
+- 
 
 ### 🔗 Quick Links
 - [Settings](.claude/settings.json) - Core configuration file
 - [Coding Rules](.claude/rules.md) - Development standards & best practices
 - [Tools](.claude/tools.md) - Curated development tools
-- [Implementation Guide](.claude/implement.md) - Feature templates
-
-## 🎯 Custom Sufix Hooks
-
-- **`-u` flag**: Activates ultrathink mode for complex problem-solving
-- **`-e` flag**: Adds detailed explanation context to responses
-- **Default enhancement**: Automatic prompt improvements
+- [Implementation Guide](.claude/implement.mdement.md) - Feature templates
 
 ---
 

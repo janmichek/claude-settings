@@ -456,5 +456,3 @@ Use clear, action-oriented naming for CRUD operations:
 - keep js, css, and html flat rather than deeply nested
 - Keep selectors flat and semantic
 - Use BEM for clear component structure
-
-
