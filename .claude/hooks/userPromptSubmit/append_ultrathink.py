@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append an explanation instruction when the user prompt ends with -e."""
+"""Ultrathink mode -u."""
 import json
 import sys
 
