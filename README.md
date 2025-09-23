@@ -21,12 +21,11 @@ claude --dangerously-skip-permissions
 - 🎯 **Suffix hooks** - Prompt parameters `-u` ultrathink mode, `-e` for explanations, - `-c` for roadmap creation, `-d` for minimalist mode
 - 📋 **Coding rules & guidelines** - Evergreen rules and personal code style rules ([rules.md](.claude/rules.md))
 - 🧰 **Curated tool selection** - Pre-defined favorite development tools ([tools.md](.claude/tools.md))
-- 🎨 **Implementation templates** - Ready-to-use feature planning for coding from scratch ([implement.md](.claude/implement.mdement.md))
 - 🔐 **Permission management** - Fine-grained allow/deny controls
 
 ## 🎯 Custom Sufix Hooks
 
-- **`-d` flag**: Default minimalist general use mode
+- **`-m` flag**: Default minimalist general use mode
 - **`-u` flag**: Ultrathink mode for research and complex problem-solving
 - **`-e` flag**: Explanation context addition to responses
 - **`-c` flag**: Create roadmap for one shot prototype app

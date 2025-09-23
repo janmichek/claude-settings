@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append a concise digest instruction when the prompt ends with -d. """
+"""Append a concise digest instruction when the prompt ends with -m. """
 import json
 import sys
 
@@ -8,7 +8,7 @@ def main() -> None:
         data = json. load (sys.stdin)
         prompt = data.get ("prompt", "'')
 
-        if prompt.rstrip().endswith("-d"):
+        if prompt.rstrip().endswith("-m"):
             print("\nthink harder. answer in short. keep it simple.")
         sys.exit(0)
     except Exception as e: # pragma: no cover

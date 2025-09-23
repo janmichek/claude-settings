@@ -106,6 +106,10 @@
         "hooks": [
           {
             "type": "command",
+            "command": "python3 $CLAUDE_PROJECT_DIR/.claude/hooks/UserPromptSubmit/append_create.py"
+          },
+          {
+            "type": "command",
             "command": "python3 $CLAUDE_PROJECT_DIR/.claude/hooks/UserPromptSubmit/append_ultrathink.py"
           },
           {
@@ -114,13 +118,10 @@
           },
           {
             "type": "command",
-            "command": "python3 $CLAUDE_PROJECT_DIR/.claude/hooks/UserPromptSubmit/append_default.py"
+            "command": "python3 $CLAUDE_PROJECT_DIR/.claude/hooks/UserPromptSubmit/append_minimal.py"
           }
         ]
       }
     ]
   }
 }
-
-
-
